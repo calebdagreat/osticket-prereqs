@@ -34,23 +34,62 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
+<img width="300" alt="Screenshot 2024-07-03 at 10 51 12 AM" src="https://github.com/user-attachments/assets/da5eaf7a-aa11-4704-b655-ecbcdefc9f69">
+<img width="300" alt="Screenshot 2024-07-15 at 9 13 44 AM" src="https://github.com/user-attachments/assets/b9fa8f51-a960-44a5-acf5-27168e5691bd">
+<img width="300" alt="Screenshot 2024-07-15 at 9 22 57 AM" src="https://github.com/user-attachments/assets/a0a1d581-5fd2-4015-b0b0-68476aeef2d7">
+<img width="300" alt="Screenshot 2024-07-15 at 9 23 37 AM" src="https://github.com/user-attachments/assets/be3fc327-c502-4915-8c94-f60492295a98">
+<img width="300" alt="Screenshot 2024-07-15 at 9 26 17 AM" src="https://github.com/user-attachments/assets/f094b44d-adeb-4604-a2cc-f4905d78de4f">
 <img width="300" alt="Screenshot 2024-06-10 at 10 51 44 PM" src="https://github.com/calebdagreat/osticket-prereqs/assets/171304036/3b1889c0-2782-454a-b4b6-43e00d9b38e1">
   
 </p>
 <p>
   
-- Create a Windows 10 Virtual Machine (VM) w/ 2 Virtual CPUs in Azure
+- **Set Up Project Environment**
+- Log into Microsoft Azure .. www.portal.azure.com
+- Type Virtual Machines in search bar and click icon
+- Create a Windows 10 Virtual Machine (VM) w/ 2 Virtual CPUs names "VM-4"
+- Create Resource Group in this case mine is named "Murids"
+- Generate Username and Password
+- Review + Create
+- Allow deployment and go to Virtual Machine page to observe details
 </p>
 <br />
 
 <p>
+<img width="300" alt="Screenshot 2024-07-15 at 9 28 39 AM" src="https://github.com/user-attachments/assets/15a8da28-0809-4113-b3b1-755f3a4ad605">
+<img width="300" alt="Screenshot 2024-07-15 at 9 29 30 AM" src="https://github.com/user-attachments/assets/31bd2b01-750a-43b1-8a8f-1130d5887b44">
+<img width="300" alt="Screenshot 2024-07-15 at 9 29 38 AM" src="https://github.com/user-attachments/assets/c5af3a8a-586d-45c4-9e19-ad038886b518">
+<img width="300" alt="Screenshot 2024-07-15 at 9 29 51 AM" src="https://github.com/user-attachments/assets/fc227288-1e34-4070-b5eb-f577b80aa10e">
+<img width="300" alt="Screenshot 2024-07-15 at 9 34 41 AM" src="https://github.com/user-attachments/assets/3c2d2449-bec7-44ec-9df6-cd878d40f11e">
+<img width="300" alt="Screenshot 2024-07-15 at 9 34 59 AM" src="https://github.com/user-attachments/assets/ab93b096-d6b6-4404-8400-f64b858d76a7">
+<img width="300" alt="Screenshot 2024-07-15 at 9 36 38 AM" src="https://github.com/user-attachments/assets/8311427a-976f-4c1c-a39c-cb91b8779b0e">
+<img width="300" alt="Screenshot 2024-07-15 at 9 38 43 AM" src="https://github.com/user-attachments/assets/352fd0cd-89a8-49a3-b1dd-55fff5bb7360">
+<img width="300" alt="Screenshot 2024-07-15 at 10 03 11 AM" src="https://github.com/user-attachments/assets/39e61ca4-7642-406e-a255-d0b8f5fe094e">
+<img width="300" alt="Screenshot 2024-07-15 at 10 02 41 AM" src="https://github.com/user-attachments/assets/a578c310-09bd-4a4e-a4bb-2c035ab0caeb">
 <img width="300" alt="Screenshot 2024-06-11 at 8 03 53 AM" src="https://github.com/calebdagreat/osticket-prereqs/assets/171304036/4f0d66d5-cc7a-48c6-97ac-be3223f68c8d">
-
+<img width="300" alt="Screenshot 2024-07-15 at 9 38 57 AM" src="https://github.com/user-attachments/assets/3cd66a1b-9999-4ef2-9383-a64cc59c73f1">
+<img width="300" alt="Screenshot 2024-07-15 at 9 39 47 AM" src="https://github.com/user-attachments/assets/2b84d307-812c-4562-b333-25adbbc7c4d6">
+<img width="300" alt="Screenshot 2024-07-15 at 9 40 50 AM" src="https://github.com/user-attachments/assets/da927c27-228a-49ec-9f41-7d61aaeda0b1">
 </p>
 <p>
-  
+
+- **Commence with Installation and Configuration**
 - Access VM through Remote Desktop Protocol (RDP)
+  1. Click "VM-4" to gain details and copy IP address into Microsoft Remote Desktop
+- Go to Start Menu and open Control Panel
+- click uninstall program
+- Click "Turn Windows features on or off"
 - Install / Enable Internet Information Services (IIS)
+  1. World Wide Web Services -> Application Development Features ->
+* [X] CGI
+* [X] Common HTTP Features
+  
+- Install IIS Management Console
+Internet Information Services -> Web Management Tools -> IIS Management Console
+* [X] IIS Management Console
+- Press OK and allow installation
+- Access files required for osTicket installation.
+
 </p>
 <br />
 
