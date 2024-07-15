@@ -68,6 +68,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - **Commence with Installation and Configuration**
 - Access VM through Remote Desktop Protocol (RDP)
   1. Click "VM-4" to gain details and copy IP address into Microsoft Remote Desktop
+- Log in with credentials that were generated upon VM creation
 - Go to Start Menu and open Control Panel
 
 
