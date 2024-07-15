@@ -61,6 +61,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="300" alt="Screenshot 2024-07-15 at 9 29 38 AM" src="https://github.com/user-attachments/assets/c5af3a8a-586d-45c4-9e19-ad038886b518">
 <img width="300" alt="Screenshot 2024-07-15 at 9 29 51 AM" src="https://github.com/user-attachments/assets/fc227288-1e34-4070-b5eb-f577b80aa10e">
 <img width="300" alt="Screenshot 2024-07-15 at 9 34 41 AM" src="https://github.com/user-attachments/assets/3c2d2449-bec7-44ec-9df6-cd878d40f11e">
+  
+</p>
+<p>
+
+- **Commence with Installation and Configuration**
+- Access VM through Remote Desktop Protocol (RDP)
+  1. Click "VM-4" to gain details and copy IP address into Microsoft Remote Desktop
+- Go to Start Menu and open Control Panel
+
+
+</p>
+<br />
+
+<p>
+
 <img width="300" alt="Screenshot 2024-07-15 at 9 34 59 AM" src="https://github.com/user-attachments/assets/ab93b096-d6b6-4404-8400-f64b858d76a7">
 <img width="300" alt="Screenshot 2024-07-15 at 9 36 38 AM" src="https://github.com/user-attachments/assets/8311427a-976f-4c1c-a39c-cb91b8779b0e">
 <img width="300" alt="Screenshot 2024-07-15 at 9 38 43 AM" src="https://github.com/user-attachments/assets/352fd0cd-89a8-49a3-b1dd-55fff5bb7360">
@@ -73,11 +88,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-- **Commence with Installation and Configuration**
-- Access VM through Remote Desktop Protocol (RDP)
-  1. Click "VM-4" to gain details and copy IP address into Microsoft Remote Desktop
-- Go to Start Menu and open Control Panel
-- click uninstall program
+
+- Click "uninstall program"
 - Click "Turn Windows features on or off"
 - Install / Enable Internet Information Services (IIS)
   1. World Wide Web Services -> Application Development Features ->
@@ -92,7 +104,6 @@ Internet Information Services -> Web Management Tools -> IIS Management Console
 
 </p>
 <br />
-
 <p>
 <img width="300" alt="Screenshot 2024-06-11 at 8 21 22 AM" src="https://github.com/calebdagreat/osticket-prereqs/assets/171304036/3edeb362-b507-40ca-8e9f-a07b9e17336d">
 <img width="300" alt="Screenshot 2024-06-11 at 8 21 52 AM" src="https://github.com/calebdagreat/osticket-prereqs/assets/171304036/e222995d-ab50-4db3-8789-c8caa4627fd6">
